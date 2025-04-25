@@ -1,7 +1,9 @@
 # vidstab-eazy
 Video-stabilizer para quando todos os arquivos estão tremidos
 
-# 🎥 Video Stabilization Script (PowerShell)
+# 🎥 Video Stabilization Script (Linux WSL2)
+
+
 
 Este script usa **FFmpeg** para estabilizar vídeos automaticamente em um diretório. Ele:
 - Detecta os movimentos no vídeo.
@@ -10,11 +12,15 @@ Este script usa **FFmpeg** para estabilizar vídeos automaticamente em um diret�
 
 ## 📥 Instalação
 
-1. **Baixe e instale o FFmpeg** (se ainda não tiver).  
+1. **Clone este repositório**
+git clone https://github.com/georgmartius/vid.stab.git
+  
+2. **Baixe e instale o FFmpeg** (se ainda não tiver).  
    - [Baixar FFmpeg](https://ffmpeg.org/download.html)
    - Certifique-se de que `ffmpeg.exe` está no PATH do sistema.
+  
+3. **instale o python**
+  - 3.2 é o suficiente
 
-2. **Clone este repositório:**
-   ```powershell
-   git clone https://github.com/seu-usuario/stabilize-videos.git
-   cd stabilize-videos
+5. **Copie o stab.py para sua pasta**
+   - Copie e rode no WSL o arquivo stab.py
